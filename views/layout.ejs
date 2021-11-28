@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      
+      <title>New Vision HTML CSS Template</title>
+
+      <link rel='stylesheet' href='/stylesheets/style.css' />
+      
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet" /> <!-- https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans -->
+      <link href="slick/slick.css" rel="stylesheet" /> <!-- https://kenwheeler.github.io/slick/ -->
+      <link href="slick/slick-theme.css" rel="stylesheet" />
+      <link href="/stylesheets/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
+      <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com -->
+      <link href="/stylesheets/templatemo-new-vision.css" rel="stylesheet" />
+  </head>
+<body>
+    <!-- Page Header -->
+    <div class="container-fluid">
+        <%- include('./includes/header.ejs') %>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="tm-main-bg <%- mainBgImage %>"></div>        
+            </div>
+        </div>
+        
+        <!-- Main -->
+        <main>
+            <%- body %>
+
+            <%- include('./includes/footer.ejs') %>
+        </main>
+    </div>
+    <script src="javascripts/jquery-3.4.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/templatemo-script.js"></script>
+</body>
+</html>
